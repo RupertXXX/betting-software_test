@@ -1,10 +1,9 @@
-import React from 'react';
-import './App.css';
+import RegisterModal from './components/registerModal/RegisterModal';
 
 function App() {
   return (
-    <div className="App">
-      
+    <div className="app">
+      <RegisterModal />
     </div>
   );
 }

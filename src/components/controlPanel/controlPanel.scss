@@ -1,0 +1,20 @@
+@import "../variables";
+
+.control-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-top: 100px;
+    &__button {
+        height: 45px;
+        margin-bottom: 15px;
+        padding: 0 45px;
+        background-color: #1877f2;
+        border: none;
+        border-radius: 8px;
+        color: #fff;
+        font-size: $medium_font-size;
+        cursor: pointer;
+    }
+}

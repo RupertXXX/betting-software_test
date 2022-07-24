@@ -1,0 +1,13 @@
+@import "../../variables";
+
+.dumb {
+    &__title {
+        margin-bottom: 10px;
+        font-size: $large_font-size;
+        font-weight: 600;
+    }
+    &__paragraph {
+        margin-bottom: 10px;
+        font-size: $medium_font-size;
+    }
+}
